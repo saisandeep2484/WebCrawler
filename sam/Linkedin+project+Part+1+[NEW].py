@@ -14,11 +14,11 @@ driver.find_element_by_xpath('//a[text()="Sign in"]').click()
 sleep(3)
 
 username_input = driver.find_element_by_name('session_key')
-username_input.send_keys('varshneysamay14@gmail.com')
+username_input.send_keys('')
 sleep(0.5)
 
 password_input = driver.find_element_by_name('session_password')
-password_input.send_keys('mud31347')
+password_input.send_keys('')
 sleep(0.5)
 
 # click on the sign in button
